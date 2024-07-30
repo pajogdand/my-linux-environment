@@ -1,0 +1,8 @@
+MyLinuxHostSW="/home/pravin/PRAVIN/02-JIRAS/4444/00-code/LinuxHostSW/LSDK5/"
+MySA="lite-qmi-dms"
+cd "${MyLinuxHostSW}/SampleApps/${MySA}"
+alias cdpkgs="cd ${MyLinuxHostSW}/pkgs"
+alias  cdsa="cd ${MyLinuxHostSW}/SampleApps/${MySA}"
+alias cmr='sudo make clean ; sudo make ; sudo ./bin/lite-qmi-dmshostx86_64'
+alias cpmc="cd ${MyLinuxHostSW}/pkgs ; sudo make complete"
+alias gc="git clone \"ssh://pjogdand@gerrit.central:29418/HostSW/LinuxHostSW\""
